@@ -71,6 +71,7 @@
 ![Train Multimode](/pics/Miltimode_train.png)
 ![Test Multimode](/pics/Miltimode_test.png)
 
+Данные для этого эксперимента представлены в [__Train multimode.csv__](/Train%20multimode.csv), [__Test multimode.csv__](/Test%20multimode.csv)
 Данный эксперимент представлен в блокноте 
 
 5. [__Multimode LIT301.ipynb__](/Multimode LIT301.ipynb)
@@ -78,3 +79,12 @@
 ## Результаты
 
 Результаты тестов с выводом показателей качества обнаружения аномалий приведены в конце каждого блокнота с экспериментами.
+
+## Примечания
+
+Эксперименты реализованы программно в среде Jupyter Notebook на Python 3 с применением библиотек Pandas, Numpy, Scikit-learn, Matplotlib, Tensorflow, Keras.
+
+Дополнительно разработаны модули на Python:
+* [__rnn_training.py__](/rnn_training.py) - создание и обучение модели рекуррентной нейронной сети
+* [__VAD.py__](/VAD.py) - реализация алгоритма Voice Activity Detection
+* [__cf_matrix.py__](/cf_matrix.py) - отрисовка матрицы ошибок (Confusion matrix) в виде Heatmap
