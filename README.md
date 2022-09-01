@@ -1,3 +1,13 @@
 # SWaT anomaly detecion
-My Master's degree research on theme of detection anomalies in technological processes using LSTM neural networks with [SWaT Dataset](https://itrust.sutd.edu.sg/itrust-labs-home/itrust-labs_swat/)
 
+Исследование для магистерской диссертации на тему обнаружения аномалий в технологических процессах с использованием LSTM нейронных сетей.
+
+В работе используется [набор данных SWaT](https://itrust.sutd.edu.sg/itrust-labs-home/itrust-labs_swat/) версии SWaT.A1_Dec 2015. Набор данных представляет из себя собранные в течение 11 суток записи сигналов с датчиков и исполнительных механизмов в системе очистки воды. Для получения набора данных исследователи создали физическую лабораторую установку по очистке воды ([Видео на YouTube](https://www.youtube.com/watch?v=i4vCG4clNZQ)).
+
+Технологический процесс очистки воды состоял из 6 стадий, на каждой из которых работали различные датчики (уровня воды, давления, химического состава) и исполнительные механизмы (насосы, заслонки, перемешивающие устройства). На каждой стадии техпроцесса датчиками и актуаторами управлял ПЛК. Все ПЛК были объединены в сеть и подключены к SCADA-системе. Данные о состоянии датчиков и актуаторов ежесекундно фиксировались и записывались в базу данных.
+
+При создании набора данных система 7 суток работала в норма
+
+https://www.researchgate.net/publication/305809559_A_Dataset_to_Support_Research_in_the_Design_of_Secure_Water_Treatment_Systems
+
+![This is an image](https://itrust.sutd.edu.sg/wp-content/uploads/2015/03/testbed-1.png)
